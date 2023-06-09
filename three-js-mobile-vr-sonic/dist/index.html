@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CodePen - Three.js Mobile VR Sonic</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <script>
+      (function (w, d) {
+        w.CollectId = "646fa80cd72ee216e669b97a";
+        var h = d.head || d.getElementsByTagName("head")[0];
+        var s = d.createElement("script");
+        s.setAttribute("type", "text/javascript");
+        s.async = true;
+        s.setAttribute("src", "https://collectcdn.com/launcher.js");
+        h.appendChild(s);
+      })(window, document);
+    </script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r124/three.min.js"></script>
+    <script src="https://unpkg.com/three@0.126.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/easing/EasePack.min.js"></script>
+
+    <script src="https://baronwatts.com/scripts/LegacyJSONLoader.js"></script>
+    <script src="https://unpkg.com/three@0.126.0/examples/js/controls/DeviceOrientationControls.js"></script>
+    <script src="https://unpkg.com/three@0.126.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://unpkg.com/three@0.126.0/examples/js/effects/StereoEffect.js"></script>
+    <script src="https://unpkg.com/three@0.126.0/examples/js/libs/tween.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script>
+    <!-- glowing effect scripts -->
+    <script src="https://unpkg.com/three@0.126.0/examples/js/postprocessing/EffectComposer.js"></script>
+    <script src="https://unpkg.com/three@0.126.0/examples/js/postprocessing/RenderPass.js"></script>
+    <script src="https://unpkg.com/three@0.126.0/examples/js/postprocessing/MaskPass.js"></script>
+    <script src="https://unpkg.com/three@0.126.0/examples/js/postprocessing/ShaderPass.js"></script>
+    <script src="https://unpkg.com/three@0.126.0/examples/js/shaders/CopyShader.js"></script>
+    <script src="https://unpkg.com/three@0.126.0/examples/js/shaders/FXAAShader.js"></script>
+    <script src="https://unpkg.com/three@0.126.0/examples/js/shaders/ConvolutionShader.js"></script>
+    <script src="https://unpkg.com/three@0.126.0/examples/js/shaders/LuminosityHighPassShader.js"></script>
+    <!-- unreal bloom -->
+    <script src="https://unpkg.com/three@0.126.0/examples/js/shaders/FXAAShader.js"></script>
+    <script src="https://unpkg.com/three@0.126.0/examples/js/postprocessing/UnrealBloomPass.js"></script>
+
+    <!-- VR Button -->
+    <button
+      id="VR"
+      class="button toggleVR"
+      onclick="toggleVR()"
+      title="Toggle VR Mode for Mobile Devices Only"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+        x="0px"
+        y="0px"
+        viewBox="0 0 62.7 52.375"
+        enable-background="new 0 0 62.7 41.9"
+        xml:space="preserve"
+      >
+        <a href="..\..\AnimatedAnimals-master\index.html">
+          <path
+            d="M53.4,5.5h-44c-2.1,0-3.7,1.7-3.7,3.7v22.6c0,2.1,1.7,3.7,3.7,3.7h13.4c1.1,0,2.1-0.6,2.5-1.6l3-7.5c1.2-2.6,4.9-2.5,6,0.1  l2.6,7.3c0.4,1,1.4,1.7,2.5,1.7h13.9c2.1,0,3.7-1.7,3.7-3.7V9.3C57.2,7.2,55.5,5.5,53.4,5.5z M20.4,27c-3.2,0-5.7-2.6-5.7-5.7  s2.6-5.7,5.7-5.7s5.7,2.6,5.7,5.7S23.6,27,20.4,27z M42.4,27c-3.2,0-5.7-2.6-5.7-5.7s2.6-5.7,5.7-5.7s5.7,2.6,5.7,5.7  S45.6,27,42.4,27z"
+          />
+        </a>
+        <text
+          x="0"
+          y="56.9"
+          fill="#000000"
+          font-size="5px"
+          font-weight="bold"
+          font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif"
+        ></text>
+        <text
+          x="0"
+          y="61.9"
+          fill="#000000"
+          font-size="5px"
+          font-weight="bold"
+          font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif"
+        ></text>
+      </svg>
+    </button>
+
+    <div id="info">SUPER!</div>
+    <audio
+      id="bflat"
+      src="https://raw.githubusercontent.com/baronwatts/models/master/sonic_ring_sound.mp3"
+    ></audio>
+    <!-- partial -->
+    <script src="./script.js"></script>
+  </body>
+</html>

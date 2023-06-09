@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CodePen - SVG clip-path Hover Effect</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <div class="container">
+      <header>
+        <h1>One Piece All Arcs</h1>
+        <p class="now">
+          Attempt to provide info regarding
+          <a
+            href="..\..\three-js-mobile-vr-sonic\dist\index.html"
+            target="_blank"
+            >One Piece</a
+          >
+          Arcs with grid hover effect using SVG and CSS Transitions.
+        </p>
+        <p class="small">
+          <b>One Piece Arcs:</b> <br />
+          Arlong Park Arc <br />
+          Alabasta Arc <br />
+          Skypiea Arc <br />
+          Water 7 Arc <br />
+          Enies Lobby Arc <br />
+          Thriller Bark Arc <br />
+          Sabaody Archipelago Arc <br />
+          Impel Down Arc <br />
+          Marineford Arc <br />
+          Dressrosa Arc <br />
+          Whole Cake Island Arc <br />
+          Wano Country Arc
+        </p>
+      </header>
+      <main>
+        <div class="items">
+          <div class="item">
+            <svg preserveAspectRatio="xMidYMid slice" viewBox="0 0 300 200">
+              <defs>
+                <clipPath id="clip-0">
+                  <circle cx="0" cy="0" fill="#000" r="150px"></circle>
+                </clipPath>
+              </defs>
+              <text class="svg-text" dy=".3em" x="50%" y="50%">
+                Arlong Park
+              </text>
+              <g clip-path="url(#clip-0)">
+                <image
+                  height="100%"
+                  preserveAspectRatio="xMinYMin slice"
+                  width="100%"
+                  xlink:href="1.jpg"
+                ></image>
+              </g>
+            </svg>
+          </div>
+          <div class="item">
+            <svg preserveAspectRatio="xMidYMid slice" viewBox="0 0 300 200">
+              <defs>
+                <clipPath id="clip-1">
+                  <circle cx="0" cy="0" fill="#000" r="150px"></circle>
+                </clipPath>
+              </defs>
+              <text class="svg-text" dy=".3em" x="50%" y="50%">Alabasta</text>
+              <g clip-path="url(#clip-1)">
+                <image
+                  height="100%"
+                  preserveAspectRatio="xMinYMin slice"
+                  width="100%"
+                  xlink:href="2.png"
+                ></image>
+              </g>
+            </svg>
+          </div>
+          <div class="item">
+            <svg preserveAspectRatio="xMidYMid slice" viewBox="0 0 300 200">
+              <defs>
+                <clipPath id="clip-2">
+                  <circle cx="0" cy="0" fill="#000" r="150px"></circle>
+                </clipPath>
+              </defs>
+              <text class="svg-text" dy=".3em" x="50%" y="50%">Skypiea</text>
+              <g clip-path="url(#clip-2)">
+                <image
+                  height="100%"
+                  preserveAspectRatio="xMinYMin slice"
+                  width="100%"
+                  xlink:href="3.jpg"
+                ></image>
+              </g>
+            </svg>
+          </div>
+          <div class="item">
+            <svg preserveAspectRatio="xMidYMid slice" viewBox="0 0 300 200">
+              <defs>
+                <clipPath id="clip-3">
+                  <circle cx="0" cy="0" fill="#000" r="150px"></circle>
+                </clipPath>
+              </defs>
+              <text class="svg-text" dy=".3em" x="50%" y="50%">Water 7</text>
+              <g clip-path="url(#clip-3)">
+                <image
+                  height="100%"
+                  preserveAspectRatio="xMinYMin slice"
+                  width="100%"
+                  xlink:href="4.webp"
+                ></image>
+              </g>
+            </svg>
+          </div>
+          <div class="item">
+            <svg preserveAspectRatio="xMidYMid slice" viewBox="0 0 300 200">
+              <defs>
+                <clipPath id="clip-4">
+                  <circle cx="0" cy="0" fill="#000" r="150px"></circle>
+                </clipPath>
+              </defs>
+              <text class="svg-text" dy=".3em" x="50%" y="50%">
+                Enies Lobby
+              </text>
+              <g clip-path="url(#clip-4)">
+                <image
+                  height="100%"
+                  preserveAspectRatio="xMinYMin slice"
+                  width="100%"
+                  xlink:href="5.jpg"
+                ></image>
+              </g>
+            </svg>
+          </div>
+          <div class="item">
+            <svg preserveAspectRatio="xMidYMid slice" viewBox="0 0 300 200">
+              <defs>
+                <clipPath id="clip-5">
+                  <circle cx="0" cy="0" fill="#000" r="150px"></circle>
+                </clipPath>
+              </defs>
+              <text class="svg-text" dy=".3em" x="50%" y="50%">
+                Thriller Bark
+              </text>
+              <g clip-path="url(#clip-5)">
+                <image
+                  height="100%"
+                  preserveAspectRatio="xMinYMin slice"
+                  width="100%"
+                  xlink:href="6.webp"
+                ></image>
+              </g>
+            </svg>
+          </div>
+          <div class="item">
+            <svg preserveAspectRatio="xMidYMid slice" viewBox="0 0 300 200">
+              <defs>
+                <clipPath id="clip-6">
+                  <circle cx="0" cy="0" fill="#000" r="150px"></circle>
+                </clipPath>
+              </defs>
+              <text class="svg-text" dy=".3em" x="50%" y="50%">
+                Sabaody Archipelago
+              </text>
+              <g clip-path="url(#clip-6)">
+                <image
+                  height="100%"
+                  preserveAspectRatio="xMinYMin slice"
+                  width="100%"
+                  xlink:href="7.jpg"
+                ></image>
+              </g>
+            </svg>
+          </div>
+          <div class="item">
+            <svg preserveAspectRatio="xMidYMid slice" viewBox="0 0 300 200">
+              <defs>
+                <clipPath id="clip-7">
+                  <circle cx="0" cy="0" fill="#000" r="150px"></circle>
+                </clipPath>
+              </defs>
+              <text class="svg-text" dy=".3em" x="50%" y="50%">Impel Down</text>
+              <g clip-path="url(#clip-7)">
+                <image
+                  height="100%"
+                  preserveAspectRatio="xMinYMin slice"
+                  width="100%"
+                  xlink:href="8.jpg"
+                ></image>
+              </g>
+            </svg>
+          </div>
+          <div class="item">
+            <svg preserveAspectRatio="xMidYMid slice" viewBox="0 0 300 200">
+              <defs>
+                <clipPath id="clip-8">
+                  <circle cx="0" cy="0" fill="#000" r="150px"></circle>
+                </clipPath>
+              </defs>
+              <text class="svg-text" dy=".3em" x="50%" y="50%">Marineford</text>
+              <g clip-path="url(#clip-8)">
+                <image
+                  height="100%"
+                  preserveAspectRatio="xMinYMin slice"
+                  width="100%"
+                  xlink:href="9.jpg"
+                ></image>
+              </g>
+            </svg>
+          </div>
+          <div class="item">
+            <svg preserveAspectRatio="xMidYMid slice" viewBox="0 0 300 200">
+              <defs>
+                <clipPath id="clip-9">
+                  <circle cx="0" cy="0" fill="#000" r="150px"></circle>
+                </clipPath>
+              </defs>
+              <text class="svg-text" dy=".3em" x="50%" y="50%">Dressrosa</text>
+              <g clip-path="url(#clip-9)">
+                <image
+                  height="100%"
+                  preserveAspectRatio="xMinYMin slice"
+                  width="100%"
+                  xlink:href="10.jpg"
+                ></image>
+              </g>
+            </svg>
+          </div>
+          <div class="item">
+            <svg preserveAspectRatio="xMidYMid slice" viewBox="0 0 300 200">
+              <defs>
+                <clipPath id="clip-10">
+                  <circle cx="0" cy="0" fill="#000" r="150px"></circle>
+                </clipPath>
+              </defs>
+              <text class="svg-text" dy=".3em" x="50%" y="50%">Whole Cake</text>
+              <g clip-path="url(#clip-10)">
+                <image
+                  height="100%"
+                  preserveAspectRatio="xMinYMin slice"
+                  width="100%"
+                  xlink:href="11.webp"
+                ></image>
+              </g>
+            </svg>
+          </div>
+          <div class="item">
+            <svg preserveAspectRatio="xMidYMid slice" viewBox="0 0 300 200">
+              <defs>
+                <clipPath id="clip-11">
+                  <circle cx="0" cy="0" fill="#000" r="150px"></circle>
+                </clipPath>
+              </defs>
+              <text class="svg-text" dy=".3em" x="50%" y="50%">Wano</text>
+              <g clip-path="url(#clip-11)">
+                <image
+                  height="100%"
+                  preserveAspectRatio="xMinYMin slice"
+                  width="100%"
+                  xlink:href="12.png"
+                ></image>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="options">
+      <button class="dark"></button>
+      <button class="light"></button>
+    </div>
+    <!-- partial -->
+    <script src="./script.js"></script>
+  </body>
+</html>

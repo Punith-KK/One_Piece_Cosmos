@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.618;
+  font-weight: 400;
+}
+
+/* body {
+  background-color: #2f3238;
+  color: #f5f5f5;
+} */
+body {
+  position: relative;
+  z-index: -9999;
+}
+.now {
+  position: relative;
+  overflow: hidden;
+  font-size: xx-large;
+  font-weight: 900;
+}
+.now::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: -1;
+}
+
+.now:hover::before {
+  opacity: 1;
+  animation: colorfulEffect 4s ease-in-out infinite;
+}
+
+@keyframes colorfulEffect {
+  0% {
+    background-color: rgb(241, 104, 104);
+  }
+  25% {
+    background-color: rgb(43, 139, 228);
+  }
+  50% {
+    background-color: rgb(47, 245, 47);
+  }
+  75% {
+    background-color: rgb(181, 181, 39);
+  }
+  100% {
+    background-color: rgb(230, 212, 212);
+  }
+}
+
+
+body::before {
+  content: '';
+  background-image: url('a.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+
+a {
+  color: #1abc89;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.small {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: #0d0d0d;
+  position: relative;
+  display: inline-block;
+}
+.small::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: -1;
+}
+
+.small:hover::before {
+  opacity: 1;
+  animation: colorfulEffect 4s ease-in-out infinite;
+}
+
+@keyframes colorfulEffect {
+  0% {
+    background-color: rgb(241, 104, 104);
+  }
+  25% {
+    background-color: rgb(43, 139, 228);
+  }
+  50% {
+    background-color: rgb(47, 245, 47);
+  }
+  75% {
+    background-color: rgb(181, 181, 39);
+  }
+  100% {
+    background-color: rgb(230, 212, 212);
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+h1 {
+  font-family: 'Arial Black', sans-serif;
+  font-size: 72px;
+  text-align: center;
+  color: #fc0808;
+  position: relative;
+  display: inline-block;
+}
+
+h1::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(45deg, #08e7fb, #6de94e, #daf603);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+h1:hover::after {
+  opacity: 1;
+  color: #1a1a1a;
+}
+
+h1 span {
+  position: relative;
+  z-index: 1;
+}
+
+h1 span::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  color: #131111;
+  animation: revealText 1s linear forwards;
+}
+
+@keyframes revealText {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+circle {
+  transform-origin: 50% 50%;
+  transform: scale(0);
+  transition: transform 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+text {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  text-anchor: middle;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.svg-text {
+  fill: #545a64;
+}
+
+.svg-masked-text {
+  fill: white;
+}
+
+image {
+  transform: scale(1.1);
+  transform-origin: 50% 50%;
+  transition: transform 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 200px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #3b3e46;
+  border-radius: 2px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.02), inset 0 0px 0px 1px rgba(0, 0, 0, 0.07);
+  transform: translateZ(0);
+}
+
+.item:hover circle,
+.item:hover image {
+  transform: scale(1);
+}
+
+button {
+  width: 12px;
+  height: 12px;
+  border: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+  border-radius: 1px;
+}
+button.dark {
+  background-color: #2f3238;
+}
+button.light {
+  background-color: #f9f9f9;
+}
+
+.options {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+.options button {
+  margin-left: 0.5rem;
+}
+
+.light {
+  background-color: #f9f9f9;
+  color: #1a1a1a;
+}
+.light p {
+  color: rgba(26, 26, 26, 0.5);
+}
+.light .item {
+  background: #f5f5f5;
+}
+.light .svg-text {
+  fill: rgba(0, 0, 0, 0.1);
+}
