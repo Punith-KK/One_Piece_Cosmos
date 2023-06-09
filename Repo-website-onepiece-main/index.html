@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>One Piece </title>
+	<link rel="icon" href="icon.png">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Script Javascript buat scroll smooth -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+  	// Add smooth scrolling to all links
+  	$("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+</head>
+<body>
+
+	<!-- navigasi bar -->
+
+<section id="nav-bar">
+	<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="..\OnePiece_Website\index.html"><img src="logo.jpeg"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  	<i class="fa fa-bars"></i>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#banner">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#karakter">Straw-Hat Pirates</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#shop">Shop</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#tentang">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="login.html">Login</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</section>
+
+<!-- banner -->
+
+<section id="banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<p class="promo-title">ONE PIECE</p>
+				<p align="justify"><strong>One Piece</strong> is a Japanese anime television series produced 
+					by Toei Animation that premiered on Fuji TV in October 1999. It is based on Eiichiro Oda's manga 
+					series of the same name. The story follows the adventures of Monkey D. Luffy, a boy whose body 
+					gained the properties of rubber after unintentionally eating a Devil Fruit. With his crew of pirates,
+					 named the Straw Hat Pirates, Luffy explores the Grand Line in search of the world's ultimate 
+					 treasure known as "One Piece" in order to become the next Pirate King.</p>
+			</div>
+			<div class="col-md-6 text-center">
+				<img src="m.png" class="img-fluid">
+			</div>
+		</div>
+	</div>
+	<img src="wave.png" class="bottom-img">
+</section>
+
+
+<!-- karakter -->
+
+<section id="karakter">
+	<div class="container text-center">
+		<h1 class="title">Straw-Hat Pirates</h1>
+		<div class="row text-center">
+			<div class="col-md-4 karakter">
+				<img src="1.jpg" class="karakter-img">
+				<h4>Monkey D. Luffy</h4>
+				<p>Monkey D. Luffy, also known as "Straw Hat Luffy" and commonly as "Straw Hat",
+					is the founder and captain of the increasingly infamous and powerful Straw Hat Pirates, 
+					as well as the most powerful of its top fighters. He desires to find the legendary 
+					treasure left behind by the late Gol D. Roger and thereby become the Pirate King,
+					which would help facilitate an unknown dream of his that he has told only to Shanks, 
+					his brothers and crew. He believes that being the Pirate King means having the most freedom in the world.</p></div>
+			<div class="col-md-4 karakter">
+				<img src="2.jpg" class="karakter-img">
+				<h4>Roronoa Zoro</h4>
+				<p>Roronoa Zoro, also known as "Pirate Hunter" Zoro, is the combatant of the Straw Hat Pirates, 
+					one of their two swordsmen, one of the Senior Officers of the Straw Hat Grand Fleet, and is publicly 
+					recognized as the right-hand man of his crew's captain Monkey D. Luffy. Formerly a bounty hunter, 
+					he is the second member of Luffy's crew and the first to join it, doing so in the Romance Dawn Arc.
+					His dream is to become the greatest swordsman in the world, in order to honor a promise he made to his deceased childhood friend Kuina.
+				</p></div>
+			<div class="col-md-4 karakter">
+				<img src="3.jpg" class="karakter-img">
+				<h4>Vinsmoke Sanji</h4>
+				<p>"Black Leg" Sanji, born as Vinsmoke Sanji, is the cook of the Straw Hat Pirates
+					 and one of the Senior Officers of the Straw Hat Grand Fleet 
+					He is the fifth member of the crew and the fourth to join, doing so at the end of the Baratie Arc.
+					His dream is to find the rumored chef's paradise, All Blue, which is where East Blue, 
+					West Blue, North Blue, and South Blue meet, along with their wildlife. 
+					He is one of the top three fighters of the Straw Hats, alongside Luffy and Zoro, who are referred to as the "Monster Trio".
+				</p></div>					<!-- Top three Characters above -->
+		</div><hr>
+		<div class="row text-center">
+		<div class="col-md-4 karakter">
+			<img src="4a.jpeg" class="karakter-img">
+			<h4>Nico robin</h4>
+			<p>Nico Robin, also known by her epithet "Devil Child" and the "Light of the Revolution", 
+				is the archaeologist of the Straw Hat Pirates and one of the Senior Officers of the Straw Hat Grand 
+				Fleet. She is the seventh member of the crew and the sixth to join, doing so at the end of the Arabasta Arc. 
+				She temporarily left the crew during the Water 7 Arc but rejoined during the Enies Lobby Arc.
+				Robin ate the Hana Hana no Mi at a young age, giving her the power to reproduce her body parts (or her entire body)
+				 on any surface at will.
+			</p></div>
+		<div class="col-md-4 karakter">
+			<img src="5.jpeg" class="karakter-img">
+			<h4>God Usopp</h4>
+			<p>"God" Usopp is the sniper of the Straw Hat Pirates and one of the Senior Officers of the Straw Hat Grand Fleet.
+				 He is the fourth member of the crew and the third to join, doing so at the end of the Syrup Village Arc. 
+				Although he left the crew during the Water 7 Arc, he rejoined at the end of the Post-Enies Lobby Arc.
+				Usopp is the son of Yasopp and Banchina. He was born and raised in Syrup Village.
+				Despite his usual cowardice, 
+				Usopp dreams of becoming a brave warrior of the sea just like his father and lives every day in pursuit of living up to this dream.
+				
+			</p></div>
+		<div class="col-md-4 karakter">
+			<img src="6.jpeg" class="karakter-img">
+			<h4>Jinbe</h4>
+			<p>"Knight of the Sea" Jinbe is the helmsman of the Straw Hat Pirates and one of the Senior Officers of the Straw Hat Grand Fleet.
+				He is the tenth member of the crew and the ninth to join, doing so during the Wano Country Arc.
+				Jinbe is a whale shark fish-man and a powerful master of Fish-Man Karate. His dream is to fulfill his former captain Fisher 
+				Tiger's dying wish of coexistence and equality between humans and fish-men. 
+				He eventually became one of the Seven Warlords of the Sea, though he resigned during the Summit War of Marineford.
+			</p></div></div><hr>
+								<!-- Middle three Characters above -->
+	</div>
+	<div class="row text-center">
+	<div class="col-md-4 karakter">
+		<img src="7.jpeg" class="karakter-img"><br>
+		<h4>Nami</h4><br>
+		<p>"Cat Burglar" Nami is the navigator of the Straw Hat Pirates and one of the Senior Officers of the Straw Hat Grand Fleet.
+		 	She is the third member of the crew and the second to join, doing so during the Orange Town Arc.
+			She is the adoptive sister of Nojiko after the two were orphaned and taken in by Bell-mère.
+			She was formerly a member of the Arlong Pirates and initially joined the Straw Hats so that she could rob them in order 
+			to buy back her village from Arlong. However, she legitimately joined the Straw Hats after they rebelled against and defeated Arlong.
+			 Her dream is to make a map of the entire world.
+			
+		</p></div>
+	<div class="col-md-4 karakter">
+		<img src="8.png" class="karakter-img">
+		<h4>Tony Chopper</h4>
+		<p>Tony Tony Chopper, also known as "Cotton Candy Lover" Chopper, is the doctor of the Straw Hat Pirates and one of the 
+			Senior Officers of the Straw Hat Grand Fleet. He is the sixth member of the crew and the fifth to join, doing so at 
+			the end of the Drum Island Arc. 
+			Chopper is a reindeer that ate the Hito Hito no Mi, a Devil Fruit that allows its user to transform into a human hybrid 
+			or a human at will.
+			His dream is to one day become a doctor capable of curing any disease and wants to travel all across the world
+		    specifically in the hopes of accomplishing this dream.
+			
+		</p></div>
+	<div class="col-md-4 karakter">
+		<img src="9.png" class="karakter-img">
+		<h4>Franky</h4>
+		<p>"Iron Man" Franky is the shipwright of the Straw Hat Pirates and one of the Senior Officers of the Straw Hat Grand Fleet. 
+			He is the crew's eighth member and the seventh to join, doing so at the end of the Post-Enies Lobby Arc.
+			Born "Cutty Flam", he chose to go by his nickname of "Franky" until eventually permanently discarding his true name per the 
+			request of Iceburg to hide his identity. Originally from the South Blue, Franky was abandoned by his family as a four-year-old,
+			 eventually making his way to Water 7.
+			Upon returning to Water 7, he became the leader of the Franky Family, a group of ship dismantlers and bounty hunters.
+		</p></div></div>
+</div>						<!-- Bottom three Characters above -->
+	</div>
+</section>
+
+
+<!-- shop -->
+
+<section id="shop">
+	<div class="container text-center shopping">
+		<h1 class="title">SHOP</h1></div>
+		<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="slide.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="slider2.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<div class="container text-center shopping">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="product-top"><a href="prod.html">
+					<img src="comic1.jpg"></a>
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<a href="prod.html"><i class="fa fa-eye" aria-hidden="true"></i></a></button>
+						<button type="button" class="btn btn-secondary" title="Add To Wishlist">
+							<a href="prod.html"><i class="fa fa-heart-o" aria-hidden="true"></i></a></button>
+						<button type="button" class="btn btn-secondary" title="Add To Chart">
+							<a href="prod.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></button>
+					</div>
+				</div>
+				<div class="product-bottom text-center">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i>
+					<h3>Comic One-Piece Vol.96</h3>
+					<h5>₹50,000</h5>
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div class="product-top"><a href="prod.html">
+					<img src="comic2.jpg"></a>
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<a href="prod.html"><i class="fa fa-eye" aria-hidden="true"></i></a></button>
+						<button type="button" class="btn btn-secondary" title="Add To Wishlist">
+							<a href="prod.html"><i class="fa fa-heart-o" aria-hidden="true"></i></a></button>
+						<button type="button" class="btn btn-secondary" title="Add To Chart">
+							<a href="prod.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></button>
+					</div>
+				</div>
+				<div class="product-bottom text-center">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half-o"></i>
+					<i class="fa fa-star-o"></i>
+					<h3>Comic One-Piece Vol.95</h3>
+					<h5>₹50,000</h5>
+				</div>
+			</div>
+
+
+<div class="col-md-3">
+				<div class="product-top"><a href="prod.html">
+					<img src="comic3.jpg"></a>
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<a href="prod.html"><i class="fa fa-eye" aria-hidden="true"></i></a></button>
+						<button type="button" class="btn btn-secondary" title="Add To Wishlist">
+							<a href="prod.html"><i class="fa fa-heart-o" aria-hidden="true"></i></a></button>
+						<button type="button" class="btn btn-secondary" title="Add To Chart">
+							<a href="prod.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></button>
+					</div>
+				</div>
+				<div class="product-bottom text-center">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half-o"></i>
+					<i class="fa fa-star-o"></i>
+					<h3>Comic One-Piece Vol.92</h3>
+					<h5>₹50,000</h5>
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div class="product-top"><a href="prod.html">
+					<img src="comic4.jpg"></a>
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<a href="prod.html"><i class="fa fa-eye" aria-hidden="true"></i></a></button>
+						<button type="button" class="btn btn-secondary" title="Add To Wishlist">
+							<a href="prod.html"><i class="fa fa-heart-o" aria-hidden="true"></i></a></button>
+						<button type="button" class="btn btn-secondary" title="Add To Chart">
+							<a href="prod.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></button>
+					</div>
+				</div>
+				<div class="product-bottom text-center">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half-o"></i>
+					<i class="fa fa-star-o"></i>
+					<h3>Comic One-Piece Vol.86</h3>
+					<h5>₹50,000</h5>
+				</div>
+			</div>
+		</div>
+
+			<div class="row">
+			<div class="col-md-3">
+				<div class="product-top bj"><a href="prod2.html">
+					<img src="baj1.png"></a>
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<a href="prod2.html"><i class="fa fa-eye" aria-hidden="true"></i></a></button>
+						<button type="button" class="btn btn-secondary" title="Add To Wishlist">
+							<a href="prod2.html"><i class="fa fa-heart-o" aria-hidden="true"></i></a></button>
+						<button type="button" class="btn btn-secondary" title="Add To Chart">
+							<a href="prod2.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></button>
+					</div>
+				</div>
+				<div class="product-bottom text-center">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half-o"></i>
+					<i class="fa fa-star-o"></i>
+					<h3>T- Shirt Quarantine</h3>
+					<h5>₹1500</h5>
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div class="product-top bj"><a href="prod2.html">
+					<img src="baj2.png"></a>
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<a href="prod2.html"><i class="fa fa-eye" aria-hidden="true"></i></a></button>
+						<button type="button" class="btn btn-secondary" title="Add To Wishlist">
+							<a href="prod2.html"><i class="fa fa-heart-o" aria-hidden="true"></i></a></button>
+						<button type="button" class="btn btn-secondary" title="Add To Chart">
+							<a href="prod2.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></button>
+					</div>
+				</div>
+				<div class="product-bottom text-center">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half-o"></i>
+					<i class="fa fa-star-o"></i>
+					<h3>T- Shirt Luffy</h3>
+					<h5>₹1000</h5>
+				</div>
+			</div>
+
+<div class="col-md-3">
+				<div class="product-top bj"><a href="prod2.html">
+					<img src="baj3.png"></a>
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<a href="prod2.html"><i class="fa fa-eye" aria-hidden="true"></i></a></button>
+						<button type="button" class="btn btn-secondary" title="Add To Wishlist">
+							<a href="prod2.html"><i class="fa fa-heart-o" aria-hidden="true"></i></a></button>
+						<button type="button" class="btn btn-secondary" title="Add To Chart">
+							<a href="prod2.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></button>
+					</div>
+				</div>
+				<div class="product-bottom text-center">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half-o"></i>
+					<i class="fa fa-star-o"></i>
+					<h3>Longsleeve Zoro</h3>
+					<h5>₹500</h5>
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div class="product-top bj"><a href="prod2.html">
+					<img src="baj4.png"></a>
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop">
+							<a href="prod2.html"><i class="fa fa-eye" aria-hidden="true"></i></a></button>
+						<button type="button" class="btn btn-secondary" title="Add To Wishlist">
+							<a href="prod2.html"><i class="fa fa-heart-o" aria-hidden="true"></i></a></button>
+						<button type="button" class="btn btn-secondary" title="Add To Chart">
+							<a href="prod2.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></button>
+					</div>
+				</div>
+				<div class="product-bottom text-center">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half-o"></i>
+					<i class="fa fa-star-o"></i>
+					<h3>Longsleeve Chopper</h3>
+					<h5>₹260</h5>
+				</div>
+			</div>
+	</div><br><br>
+</section>
+
+
+<!-- tentang kami -->
+
+<section id="tentang">
+	<div class="container">
+		<h1 class="title text-center">One Piece</h1>
+		<div class="row">
+			<div class="col-md-6 tentang">
+				<p class="about-title">One Piece (Manga ,<br> Episodes And Movies)</p>
+				<ul>
+					<li><p align="justify">
+						As a child, Monkey D. Luffy was inspired to become a pirate by listening to the tales of the buccaneer "Red-Haired" Shanks. But Luffy's life changed when he accidentally ate the Gum-Gum Devil Fruit and gained the power to stretch like rubber...at the cost of never being able to swim again! Years later, still vowing to become the king of the pirates, Luffy sets out on his adventure...one guy alone in a rowboat, in search of the legendary "One Piece," said to be the greatest treasure in the world...
+						<a href="https://mangaplus.shueisha.co.jp/titles/100020">Manga Link</a><br><br>
+					</p></li>
+					<li><p align="justify">
+						Follows the adventures of Monkey D. Luffy and his pirate crew in order to find the greatest treasure ever left by the legendary Pirate, Gold Roger. The famous mystery treasure named "One Piece".
+						Monkey. D. Luffy refuses to let anyone or anything stand in the way of his quest to become the king of all pirates. 
+						With a course charted for the treacherous waters of the Grand Line and beyond, this is one captain who'll never give 
+						up until he's claimed the greatest treasure on Earth: the Legendary One Piece!
+						The twentieth season of the One Piece anime series was produced by Toei Animation, directed by Tatsuya Nagamine and Satoshi Ito. 
+						The season began broadcasting in Japan on Fuji Television on July 7, 2019.
+						One Piece is a Japanese animated television series based on the successful manga and currently has 1,054 episodes.
+						<br><a href="https://www.crunchyroll.com/series/GRMG8ZQZR/one-piece">Episodes Link</a>
+					</p></li>
+					<li><p align="justify">
+						One Piece has become a worldwide phenomenon among anime enthusiasts. The anime has already established itself as one of the greatest ever created. 
+						And because of its monumental success, several 
+						One Piece movies have been released to expand on existing plotlines or set the stage for new adventures for the Straw Hat Pirates.<br>
+						While almost all One Piece movies are non-canon, they have manga-canon moments from time to time. 
+						With over 1,000 episodes and 15 movies under its belt, it can certainly be confusing for new One Piece fans to follow the right order. 
+						<br>Since the premiere of the anime adaptation of Eiichiro Oda's One Piece manga in 1999, Toei Animation has produced 15 feature films
+						based on the franchise traditionally released during the Japanese school spring break since 2000.
+					<br><a href="https://beebom.com/one-piece-movies-in-order/">Movies Link</a>
+					</p></li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<img src="luf.png" class="img-fluid"><br><br>
+				<img src="10.jpg" class="img-fluid"><br><br>
+				<img src="10a.jpg" class="img-fluid">
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section id="sosmed">
+	<div class="container text-center">
+		<p>Follow One Piece</p>
+		<div class="social-icons">
+			<a href="https://www.instagram.com/onepiece.now/?hl=en"><img src="ig.png"></a>&nbsp
+			<a href="https://www.facebook.com/groups/OPonemillion/"><img src="fb.png"></a>&nbsp
+			<a href="https://twitter.com/OnePieceAnime"><img src="twt.png"></a>&nbsp
+			<a href="https://discord.com/invite/opnw"><img src="dis.png"></a>&nbsp
+		</div>
+	</div>
+</section>
+
+
+<!-- footer -->
+
+<section id="footer">
+	<img src="wavei.png" class="footer-img">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 footer-box">
+				<img src="logo.png">
+				<p align="justify">
+					• One Piece is known as one of the best anime due to its engaging and well-written storyline,
+					memorable characters, and high-quality animation.<br>
+					• The animation quality is consistently impressive, with attention to detail in fight scenes and overall design. <br>
+					• With over 950+ episodes, One Piece has something for everyone, making it a beloved and enduring series in the anime world.
+				</p>
+			</div>
+			<div class="col-md-4 footer-box">
+				<p><b>Punith.K.K</b></p>
+				<p><i class="fa fa-map-marker"></i>New Horizon College of Engineering</p>
+				<p><i class="fa fa-phone"></i>6361002561</p>
+				<p><i class="fa fa-envelope-o"></i>punith25042002@gmail.com</p>
+			</div>
+			<div class="col-md-4 footer-box">
+				<p><b>Mail Us</b></p>
+				<input type="email" class="form-control" placeholder="Fill your email">
+				<a href="..\DraggableMenu-master\index.html">
+					<button type="button" class="btn btn-danger">Send</button>
+				</a>
+			</div>
+		</div>
+		<hr>
+		<p class="copyright">One piece &copy Punith.K.K</p>
+	</div>
+	<div class = "footerLayerBg">
+		<a class = "footerLayerAuthor" href = "..\DraggableMenu-master\index.html" target = "">
+			Lets Go and explore Yonko's (Four Emperors)
+		</a>
+	</div>
+</section>
+</body>
+</html>
