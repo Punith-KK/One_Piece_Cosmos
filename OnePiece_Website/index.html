@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "styling.css" rel = "stylesheet">
+    <title>One Piece</title>
+    <link rel="icon" href= "resources/onepiecelogo.jpg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class = "backgroundContainer">
+        <video id = "background" muted autoplay loop> 
+            <source src = "resources\gear5.mp4" type = "video/mp4"></src>
+            <!-- <source src = "D:\punith\Mini_Project\6th_Sem\OnePiece_Website\resources\my\whitebeard_video.mp4" type = "video/mp4"></src>  -->
+        </video>
+
+        <audio autoplay loop muted="false" preload="auto" id = "backgroundMusic" class = "bgm" 
+        src = "\resources\One_Piece_OST-Overtaken.mp3" loop></audio>
+    </div>
+
+    <div class = "headerBar">
+        <div class = "leftBarContainer">
+            <a class = "logoContainer" href = "">
+                <div class = "logoImageContainer">
+                    <img class = "logoImage" src = "resources/One-Piece-Logo.svg">
+                </div>
+            </a>
+            <img id = "audioController" src = "resources/audioControllerOn.png" onclick = "audioController(); imageChange();">
+        </div>
+        <div class = "rightBarContainer">
+            <div class = "rightBarStuff">
+            </div>
+            <div class = "menuHamburger"><div class = "menuHamburgerBtn"></div></div>
+        </div>
+    </div>
+
+    <div class = "layer1">
+        <div class = "layer1BgSources"><a class = "layer1BgSource1" href = "https://pin.it/46lgvLt" target = "_blank"></a><br><a class = "layer1BgSource2" href = "https://www.youtube.com/watch?v=7zG87aNNf20&list=PL_mGxmgVfH1ORtai56pXbkWdlfRjcl1K2&index=21" target = "_blank"></a></div> 
+        <div class = "layer1Container">
+            <div class = "layer1Left">
+                <div class = "greetings">
+                    <b>One Piece is Real<b>
+                </div>
+                <div class = "description">
+                    Gold Roger was known as the "Pirate King", the strongest and most infamous being to have sailed the Grand Line. The capture and execution of Roger by the World Government brought a change throughout the world.
+                    <br> His last words before his death revealed the existence of the greatest treasure in the world, One Piece.
+                    <br> It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece which promises an unlimited amount of riches and fame and quite possibly the pinnacle of glory and the title of the Pirate King.
+                    <br> Enter Monkey Luffy, a 17-year-old boy who defies your standard definition of a pirate.
+                     Rather than the popular persona of a wicked, hardened, toothless pirate ransacking villages for fun, Luffy's reason for being a pirate is one of pure wonder: the thought of an exciting adventure that leads him to intriguing people and ultimately, the promised treasure. 
+                </div>
+                <div class = "JourneyContainer">
+                    <a class = "journey" href = "https://youtu.be/LuQQV4eqphg" target="_blank">Be A Part Of This Amazing Journey!</a>
+                </div>
+            </div>
+            <div class = "layer1Right">
+                <img class = "layer1Image" src = "resources/piconepiece.png">
+                <div class = "layer1Caption">
+                    <!-- One Piece Crew  -->    
+                    MONKEY D. LUFFY 
+                </div>
+                <a class = "layer1Source" href = "#!">Become A Nakama By Being A Part Of Our Journey!!! </a>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class = "layer2">
+        <div class = "layer2Bg">
+            <div class = "layer2Content">
+                <div class = "layer2Heading">
+                    Why not come down and see few of our Journey's? We've gone...
+                </div>
+                <div class = "layer2InfoContainer">
+                    <div class = "fumoContainer">
+                        <a class = "linkI" href = "https://youtu.be/Nu_8XU8Z3HA" target = "_blank"><img class = "fumoImage" src = "resources/arabasta.jpg"></a>
+                        <div class = "fumoSubtext">Arabasta!!</div>
+                    </div>
+                    <div class = "gameContainer">
+                        <a class = "linkI" href = "https://youtu.be/65zLuamCXCo" target = "_blank"><img class = "gameImage" src = "resources/sky_island.jpg"></a>
+                        <div class = "gameSubtext">Sky Island!!</div>
+                    </div>
+                    <div class = "fanartContainer">
+                        <a class = "linkI" href = "https://youtu.be/IocITrRzlCw" target = "_blank"><img class = "fanartImage" src ="resources/water7.jpg" ></a>
+                        <div class = "fanartSubtext">Water 7!!</div>
+                        <div class = "fanartSource"></div>
+                    </div>
+                    <div class = "gameContainer">
+                        <a class = "linkI" href = "https://youtu.be/a6DbRl2ib-w" target = "_blank"><img class = "gameImage" src = "resources/enies_lobby.jpg"></a>
+                        <div class = "gameSubtext">Enies Lobby!!</div>
+                    </div>
+                    <div class = "musicContainer">
+                        <a class = "linkI" href = "https://youtu.be/0rPvxOYtiQg" target = "_blank"><img class = "fumoImage" src = "resources/paramount_war.jpg"></a>
+                        <div class = "musicSubtext">Paramount War!!</div>
+                    </div>
+                    <div class = "heyMisterContainer">
+                        <a class = "linkI" href = "https://youtu.be/qExGrSM3Cy8" target = "_blank"><img class = "heyMisterImage" src = "resources/fishman.jpg"></a>
+                        <div class = "heyMisterSubtext">Fishman Island!! <!-- <span class = "stuff">"stuff"</span> --></div>
+                    </div>
+                    <div class = "fumoContainer">
+                        <a class = "linkI" href = "https://youtu.be/9vCc0KpKtZw" target = "_blank"><img class = "fumoImage" src = "resources/punk_hazard.webp"></a>
+                        <div class = "fumoSubtext">Punk Hazard!!</div>
+                    </div>
+                    <div class = "fumoContainer">
+                        <a class = "linkI" href = "https://youtu.be/Eos8-fjGJ5k" target = "_blank"><img class = "fumoImage" src = "resources/dressrosa.webp"></a>
+                        <div class = "fumoSubtext">Dressrosa!!</div>
+                    </div>
+                    <div class = "fumoContainer">
+                        <a class = "linkI" href = "https://youtu.be/qU78r4LW8S8" target = "_blank"><img class = "fumoImage" src = "resources/whole_cake.jpg"></a>
+                        <div class = "fumoSubtext">Whole Cake Island!!</div>
+                    </div>
+                    <div class = "fumoContainer">
+                        <a class = "linkI" href = "https://youtu.be/YnZ9E03Q9Nc" target = "_blank"><img class = "fumoImage" src = "resources/wano.jpg"></a>
+                        <div class = "fumoSubtext">Wano!!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<br><br><br><br><br>
+    <div class = "layer3">
+        <!-- <a class="layer3BgSource" href = "https://www.pixiv.net/en/users/1508165" target = "_blank">Background illustration by: ryosios</a> -->
+        <div class = "layer3Text">
+            <div class = "layer3Quote">
+                "And Our Journey Still Continues!!"
+            </div>
+            <div class = "layer3QuoteFrom">
+                Meet You At EggHead 
+            </div>
+        </div>
+    </div>
+<div class = "footerLayer">
+        <div class = "footerLayerBg">
+            <a class = "footerLayerAuthor" href = "../Repo-website-onepiece-main/index.html" target = "">
+                Lets Go to explore Straw-Hat Crew
+            </a>
+        </div>
+    </div>
+
+</body>
+
+<script src = "landingPage.js"></script>
+</html>
