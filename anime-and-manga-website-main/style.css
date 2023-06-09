@@ -1,0 +1,26 @@
+body {
+    background-image: url("https://www.kolpaper.com/wp-content/uploads/2020/11/Luffy-One-Piece-Background.jpg");
+    background-size: cover;
+}
+#home_img{
+    width: 80vw;
+}
+#logo_img {
+    width: 5vw;
+}
+
+.investImags {
+    width: 10vw;
+}
+
+#carouselExampleControls {
+    width: 55vw;
+}
+
+#Image_div{
+    width: 30vw;
+}
+
+#arrow_img{
+    width: 15vw;
+}
