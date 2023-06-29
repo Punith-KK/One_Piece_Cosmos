@@ -1,6 +1,11 @@
 # One_Piece_Cosmos
+
 ### This Website contains everything related to one piece anime.😍😍❤
 [Live Website](https://punith-kk.github.io/One_Piece_Cosmos/AnimatedAnimals-master/index2.html "From Punith.K.K")
+
+# Secured First Place for this project😜😉😉✌
+![Mini_Project_Certificate](https://github.com/Punith-KK/One_Piece_Cosmos/assets/118302022/ef822f99-9da0-4920-aa7f-8ced004bfd4e)
+
 
 ## Introduction
 **This project "One Piece Cosmos" delves into the captivating world of the renowned manga and anime series, "One Piece." It explores the vast expanse of this fictional universe, encompassing a multitude of episodes, compelling characters, and intriguing concepts. Through meticulous research and analysis, this project aims to provide a comprehensive understanding of the intricate elements that make up the "One Piece" cosmos.
@@ -53,7 +58,5 @@ Additionally, the project delves into the mystical Devil Fruits, exploring their
 
 # Conclusion
 **In conclusion, "One Piece Cosmos" is a mini project that aims to provide a comprehensive exploration of the beloved manga and anime series, "One Piece." Through in-depth analysis, it delves into the captivating world of the Straw Hat Crew, the powerful Yonkos, formidable Admirals, intriguing Warlords, and the mystical Devil Fruits. By examining the episodes, characters, and concepts, the project offers fans and enthusiasts a centralized resource to deepen their understanding and appreciation of the series. "One Piece Cosmos" contributes to the vibrant "One Piece" community and enhances the overall fan experience by celebrating the rich lore and captivating storytelling that has made the series a cultural phenomenon. **
-# Secured First Place for this project😜😉😉✌
-![Mini_Project_Certificate](https://github.com/Punith-KK/One_Piece_Cosmos/assets/118302022/ef822f99-9da0-4920-aa7f-8ced004bfd4e)
 
 # Thank You
